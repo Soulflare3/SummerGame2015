@@ -2,7 +2,7 @@
 // @name Soulflare3's MonsterGame UI Fix
 // @namespace https://github.com/Soulflare3/SummerGame2015
 // @description Quick JS/CSS fix for overlapping text in the top UI
-// @version 0.2
+// @version 0.3
 // @match *://steamcommunity.com/minigame/towerattack*
 // @match *://steamcommunity.com//minigame/towerattack*
 // @grant none
