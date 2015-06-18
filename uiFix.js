@@ -11,8 +11,6 @@
 // ==/UserScript==
 
 
-$(document).ready(function() {
-
 var timeui = document.getElementsByClassName('game_time')[0];
 timeui.style.top = "30px";
 timeui.style.left = "380px";
@@ -23,4 +21,5 @@ levelnumui.style.left = "500px";
 var leveltimeui = document.getElementsByClassName('level_time')[0];
 leveltimeui.style.top = "30px";
 leveltimeui.style.left = "800px";
-};
+
+console.log("Soulflare3's MonsterGame UI Fix loaded");
