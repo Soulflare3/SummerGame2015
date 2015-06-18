@@ -2,7 +2,7 @@
 // @name Soulflare3's MonsterGame UI Fix
 // @namespace https://github.com/Soulflare3/SummerGame2015
 // @description Quick JS/CSS fix for overlapping text in the top UI
-// @version 1.0.0
+// @version 0.1
 // @match *://steamcommunity.com/minigame/towerattack*
 // @match *://steamcommunity.com//minigame/towerattack*
 // @grant none
@@ -11,7 +11,7 @@
 // ==/UserScript==
 
 
-// uicontainer top_row overlap fix
+$(document).ready(function() {
 
 var timeui = document.getElementsByClassName('game_time')[0];
 timeui.style.top = "30px";
@@ -23,3 +23,4 @@ levelnumui.style.left = "500px";
 var leveltimeui = document.getElementsByClassName('level_time')[0];
 leveltimeui.style.top = "30px";
 leveltimeui.style.left = "800px";
+};
